@@ -1,11 +1,16 @@
 {
   "name": "Opensea Rarity Helper",
-  "description": "This extension will provide from rarity tools sdsd",
+  "description": "This extension injects the rank and rarity details from rarity tools into an Opensea collection.",
   "version": "0.0.1",
   "manifest_version": 2,
   "browser_action": {
-   "default_icon": "images/icon.png",
-   "default_popup": "popup.html"
+    "default_icon": "images/icon128.png",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
   },
   "permissions": ["tabs", "<all_urls>"]
 }

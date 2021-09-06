@@ -1,10 +1,93 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>OpenSea Rarity Tools Helper</title>
+    <meta charset="UTF-8" />
+    <title>OpenSea Rarity Helper</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <img class="logo" src="./images/icon128.png" />
+    <h4 class="title">OpenSea Rarity Helper</h4>
+    <h4 class="version">v.0.0.1</h4>
+    <div class="checkbox-wrapper">
+      Rarity Rank
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="#4ade80"
+      >
+        <path
+          d="M10 15.586L6.707 12.293 5.293 13.707 10 18.414 19.707 8.707 18.293 7.293z"
+        />
+      </svg>
+    </div>
+    <div class="checkbox-wrapper">
+      Rarity Score
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="#4ade80"
+      >
+        <path
+          d="M10 15.586L6.707 12.293 5.293 13.707 10 18.414 19.707 8.707 18.293 7.293z"
+        />
+      </svg>
+    </div>
+    <div class="checkbox-wrapper">
+      Traits
+      <svg
+        style="margin-right: 3px; margin-top: 2px"
+        xmlns="http://www.w3.org/2000/svg"
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        stroke-width="2.25"
+        stroke="#de4a4a"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </div>
+    <div class="divider"></div>
+    <div class="text">
+      <!-- <span>0xEB9275bB2E859562E8314805CE0B39eAb8D0e313</span> -->
+      <div class="address">
+        <div
+          id="clipboard"
+          role="tooltip"
+          aria-label="Copy to clipboard"
+          data-tooltip-position="top"
+        >
+          <span>0xEB927....e313</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="8" y="8" width="12" height="12" rx="2"></rect>
+            <path
+              d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      Feel free to buy me a coffee ☕
+    </div>
     <script src="./popup.js"></script>
   </body>
 </html>
