@@ -1,0 +1,11 @@
+# Node.js Tools for Visual Studio
+node_modules/
+
+# Typescript v1 declaration files
+typings/
+
+# Local
+docker-compose.yml
+.env
+dist
+.vercel
