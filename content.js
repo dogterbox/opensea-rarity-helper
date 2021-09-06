@@ -54,7 +54,7 @@ const onScroll = () => {
 
 observer.observe(document.body, { childList: true });
 
-fetch("https://gevols-sniper.vercel.app/g-evols/stats")
+fetch("https://opensea-rarity-helper.vercel.app/g-evols/stats")
   .then((response) => response.json())
   .then((response) => (data = response))
   .catch((error) => console.error(error));
