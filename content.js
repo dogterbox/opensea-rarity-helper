@@ -44,7 +44,7 @@
 
           const rarity = document.createElement("div");
           rarity.id = `g-evol-rarity-${idx}`;
-          rarity.innerHTML = `<span style="${styles.label}">Rarity Score:</span> ${data[idx].rarity}`;
+          rarity.innerHTML = `<span style="${styles.label}">Rarity:</span> ${data[idx].rarity}`;
           rarity.style.cssText = styles.rarity;
           tag.appendChild(rarity);
         }
