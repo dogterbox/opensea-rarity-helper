@@ -26,6 +26,15 @@
 
   const onScroll = () => {
     const tags = document.querySelectorAll(".Asset--anchor");
+    const offersText = document.querySelectorAll(
+      ".AssetCardFooter--annotations-item-text"
+    );
+    offersText.forEach(
+      (offer) =>
+        (offer.style.cssText =
+          "margin-top: -26px; position: absolute; right: 6px;")
+    );
+
     [].forEach.call(allAnchorTags, (a) => {
       if (!allAnchorTags.includes(a.href)) {
         allAnchorTags.push(a);
